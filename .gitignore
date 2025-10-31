@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Env & secrets
+.env
+.env.*.local
+
+# Streamlit/Cache
+.streamlit/
+.cache/
+
+# uv / venv / poetry
+.venv/
+dist/
+build/
+.python-version
